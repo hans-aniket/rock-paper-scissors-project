@@ -45,7 +45,7 @@ function getHumanChoice(_string1, _string2, _string3)
     else {
         alert("invalid input")
     }
-    return getHumanChoice()
+    
 }
 getHumanChoice()
 
