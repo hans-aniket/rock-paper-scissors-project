@@ -21,7 +21,7 @@ function getComputerChoice( _string1, _string2, _string3)
 let _string1 = "rock";
 let _string2 = "paper";
 let _string3 = "scissors";
-getComputerChoice(_string1, _string2, _string3);
+
 
 function getHumanChoice(_string1, _string2, _string3)
 {
@@ -47,7 +47,7 @@ function getHumanChoice(_string1, _string2, _string3)
     }
     return getHumanChoice()
 }
-getHumanChoice()
+
 
 let humanScore = 0;
 let computerScore = 0;
