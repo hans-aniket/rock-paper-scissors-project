@@ -89,8 +89,25 @@ function playRound(humanChoice, computerChoice) {
 
     
 }
-  const humanSelection = getHumanChoice();
-  const computerSelection = getComputerChoice(_string1,_string2,_string3);
+
+function playgame()
+{
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice(_string1,_string2,_string3);
+    
+    playRound(humanSelection, computerSelection);
+
+
+        if (humanScore == 5) {
+            console.log("Congrats, you won")
+        }
+        else if (computerScore == 5) {
+            console.log("Oops, computer won! Better luck next time")
+        }
+        else {
+            playgame()
+        }
+}
+playgame();
   
-  playRound(humanSelection, computerSelection);
   
