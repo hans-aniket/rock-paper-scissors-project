@@ -1,2 +1,2 @@
-# rock-paper-scissors-project
+# rock-paper-scissors
 Rock paper scissors game
